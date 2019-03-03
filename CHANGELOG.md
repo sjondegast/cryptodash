@@ -1,6 +1,7 @@
 #changelog
 
-##Ideas
+##Ideas - improvements after course
+- styled-components restructure to regular css/scss because i don't like it!
 
 ##Changes
 - cleaned up code create-react-app boilerplate
