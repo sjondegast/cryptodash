@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import WelcomeMessage from './WelcomeMessage';
+// eslint-disable-next-line
 import styled, { css } from 'styled-components';
 
 class App extends Component {
