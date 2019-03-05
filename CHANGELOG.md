@@ -16,7 +16,8 @@
 - created settings page
 - added react context (redux like but from react, its new and it uses the new context api from react)
 - added setting dir for welcomemessage and added logic to give massage if firstVisit etc. 
-- npm install --save cryptocompage
+- npm install --save cryptocompare
+- created cryptocompare login user: sjondegast@gmail.com | wachtwoord: 21011987
 
 ##LessonsLog
 - how does the context work and is it better then redux?!
