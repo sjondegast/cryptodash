@@ -2,6 +2,7 @@
 
 ##Ideas - improvements after course
 - styled-components restructure to regular css/scss because i don't like it!
+- Learn react context api
 
 ##Changes
 - cleaned up code create-react-app boilerplate
@@ -10,3 +11,10 @@
 - played around with styled components - https://www.styled-components.com/
 
 ##LessonsLog
+- how does the context work and is it better then redux?!
+Redux uses the old context api of react, but it has some bennefits like debug tools and others.
+In some cases Redux is still the way to go, and others it's better to use react context api.
+
+## Questions
+- how to avoid not using constructor function
+- styled-components vs normal scss / css?!

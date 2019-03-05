@@ -1,13 +1,14 @@
 import React from 'react';
-import styled, {css} from 'styled-components';
+import styled, { css } from 'styled-components';
+import { AppContext } from './AppProvider';
 
 // const Logo = styled.div`
 // 	font-size: 1.5em;
 // `;
 
 const Bar = styled.div`
-    display: grid;
-    margin-bottom: 40px;
+	display: grid;
+	margin-bottom: 40px;
 	grid-template-columns: 180px auto 100px 100px;
 `;
 
@@ -22,19 +23,25 @@ const ControlButtonElem = styled.div`
 
 const ControlButton = ({ name, active }) => {
 	return (
-        <ControlButtonElem active={active}>
-            {name}
-        </ControlButtonElem>
-    )
+		<AppContext.Consumer>
+			{({page, setPage}) => (
+			<ControlButtonElem 
+				active={page === name}
+				onClick={() => setPage(name)}
+			>
+				{name}
+			</ControlButtonElem>)}
+		</AppContext.Consumer>
+	);
 };
 
 const AppBar = () => {
 	return (
 		<Bar>
-			<ControlButton name="CryptoDash"/>
+			<ControlButton name='CryptoDash' />
 			<div />
-			<ControlButton active name="Dashboard"/>
-			<ControlButton name="Settings"/>
+			<ControlButton active name='Dashboard' />
+			<ControlButton name='Settings' />
 		</Bar>
 	);
 };
