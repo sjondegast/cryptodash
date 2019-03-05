@@ -13,7 +13,7 @@ const Bar = styled.div`
 `;
 
 const ControlButtonElem = styled.div`
-	cursur: pointer;
+	cursor: pointer;
 	${props =>
 		props.active &&
 		css`
