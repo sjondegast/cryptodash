@@ -13,6 +13,10 @@
 - created git repo cryptodash
 - npm install --save styled-components@4.0.2
 - played around with styled components - https://www.styled-components.com/
+- created settings page
+- added react context (redux like but from react, its new and it uses the new context api from react)
+- added setting dir for welcomemessage and added logic to give massage if firstVisit etc. 
+- npm install --save cryptocompage
 
 ##LessonsLog
 - how does the context work and is it better then redux?!
