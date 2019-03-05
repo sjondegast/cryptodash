@@ -4,6 +4,10 @@
 - styled-components restructure to regular css/scss because i don't like it!
 - Learn react context api
 
+### Final version cryptodash
+- if styled-components isn't the way to go change to scss/sass, or try to make a version that uses scss later...
+- put the react app inside a express back-end and put it up on heroku
+
 ##Changes
 - cleaned up code create-react-app boilerplate
 - created git repo cryptodash
