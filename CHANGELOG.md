@@ -27,3 +27,4 @@ In some cases Redux is still the way to go, and others it's better to use react 
 ## Questions
 - how to avoid not using constructor function
 - styled-components vs normal scss / css?!
+- create-react-app webpack config, babel etc. config files zie documentatie voor scss en sass etc. 
