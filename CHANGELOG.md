@@ -3,6 +3,7 @@
 ##Ideas - improvements after course
 - styled-components restructure to regular css/scss because i don't like it!
 - Learn react context api
+- CoinGrid -> settings .slice 0, 100 select a range!! 
 
 ### Final version cryptodash improvements/changes!!
 - Clone current project first - redesign
@@ -34,6 +35,7 @@
 - how does the context work and is it better then redux?!
 Redux uses the old context api of react, but it has some bennefits like debug tools and others.
 In some cases Redux is still the way to go, and others it's better to use react context api.
+- css you can create grids inside of grids
 
 ## Questions
 - how to avoid not using constructor function
