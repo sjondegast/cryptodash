@@ -4,8 +4,17 @@
 - styled-components restructure to regular css/scss because i don't like it!
 - Learn react context api
 
-### Final version cryptodash
-- if styled-components isn't the way to go change to scss/sass, or try to make a version that uses scss later...
+### Final version cryptodash improvements/changes!!
+- Clone current project first - redesign
+- First make a branch before starting with changes, for example restructure app, components and file(names)
+- for example change shared folder to global, index === app.js | settings dir with all components for the settings page. | global or shared is fine with
+- change styled components to scss, see the scotch.io site for this with create-react-app
+- change filenames to my own conventions, don't like the way it's been done!!
+    - for example styles dir, inside here we make the components and the styles.
+    - also make a base file and a settings file for the scss, maybe a file in there with md extention with conentions etc.
+    - for this project probably best to first change the file/component names and test it
+    - then copy all the styled component styles to the style-conventions.md file and from there make the scss files per component and work my way through it.
+    - then make a redesign, don't like the colors and the layout that much eather.
 - put the react app inside a express back-end and put it up on heroku
 
 ##Changes
