@@ -18,6 +18,8 @@
 - added setting dir for welcomemessage and added logic to give massage if firstVisit etc. 
 - npm install --save cryptocompare
 - created cryptocompare login user: sjondegast@gmail.com | wachtwoord: 21011987
+- added cryptocompare to AppProvider to fetch the coinList
+
 
 ##LessonsLog
 - how does the context work and is it better then redux?!
