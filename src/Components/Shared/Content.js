@@ -1,15 +1,17 @@
 import React from 'react';
 import { AppContext } from '../AppProvider';
 
-export default ({coinList, children}) => {
+const Content = props => {
 	return (
 		<AppContext.Consumer>
-			{(coinList) => {
+			{({ coinList }) => {
 				if (!coinList) {
 					return <div> Loading Coins </div>;
 				}
-				return <div> {children} </div>;
+				return <div> {props.children} </div>;
 			}}
 		</AppContext.Consumer>
 	);
 };
+
+export default Content;

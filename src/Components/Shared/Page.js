@@ -1,7 +1,7 @@
 import React from 'react';
 import { AppContext } from '../AppProvider';
 
-export default ({ name, children }) => {
+const Page = ({ name, children }) => {
 	return (
 		<AppContext.Consumer>
 			{({ page }) => {
@@ -13,3 +13,5 @@ export default ({ name, children }) => {
 		</AppContext.Consumer>
 	);
 };
+
+export default Page;
