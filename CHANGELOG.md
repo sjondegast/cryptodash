@@ -36,6 +36,10 @@
 Redux uses the old context api of react, but it has some bennefits like debug tools and others.
 In some cases Redux is still the way to go, and others it's better to use react context api.
 - css you can create grids inside of grids
+- make list of libraries that i used and and order/search them by problem to solve. for example lodash
+- ...this.state.favorites === spread operator, learn more about it and how it works.
+    let favorites = [...this.state.favorites]; this makes a copy of the array and sets the let variable to that value, in this case the array comming back from the state.
+- object destructuring!! 
 
 ## Questions
 - how to avoid not using constructor function
