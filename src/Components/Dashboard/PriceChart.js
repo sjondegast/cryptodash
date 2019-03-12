@@ -3,18 +3,21 @@ import highchartsConfig from './HighchartsConfig';
 import { Tile } from '../Shared/Tile';
 import { AppContext } from '../AppProvider';
 import ReactHighcharts from 'react-highcharts';
-import HighchartsTheme from './HighchartsTheme'
+import HighchartsTheme from './HighchartsTheme';
 
 ReactHighcharts.Highcharts.setOptions(HighchartsTheme);
 
 export default () => {
-    return (
-        <AppContext.Consumer>
-            {({}) => 
-            <Tile>
-                <ReactHighcharts config={highchartsConfig()}/>
-            </Tile>
-            }
-        </AppContext.Consumer>
-    );
-}
+	return (
+		<AppContext.Consumer>
+			{({ historical }) => (
+				<Tile>
+					{historical ? 
+                        <ReactHighcharts config={highchartsConfig(historical)} />
+                        : <div> Loading Chart... </div>
+                    }
+				</Tile>
+			)}
+		</AppContext.Consumer>
+	);
+};
