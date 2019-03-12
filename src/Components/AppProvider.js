@@ -14,7 +14,7 @@ export class AppProvider extends React.Component {
 		super(props);
 		this.state = {
 			page: 'Dashboard',
-			favorites: [],
+			favorites: ['BTC', 'ETH', 'XMR', 'DOGE'],
 			...this.savedSettings(),
 			setPage: this.setPage,
 			addCoin: this.addCoin,
